@@ -1,5 +1,11 @@
 # External vCenter actions
 
+### Table of Contents
+- [Export Version](#export-version)
+- [Description](#description)
+- [Steps to Enable](#steps-to-enable)
+- [Customization](#customization)
+
 ### Export Version
 <b>pc.2022.1</b> - This playbook can only be imported into pc.2022.1 or newer versions.
 
@@ -31,10 +37,10 @@ This is a set of 8 playbooks developed in pc.2022.1 for performing actions on ex
 8. Power Off VM
    - Power Off VM (Hard Power Off)
 
-
 ### Steps to Enable
-1. Download and import the playbook file (.pbk)
-2. Enable all the playbooks
+1. Download the .pbk file by right-clicking and saving this link: https://raw.githubusercontent.com/nutanixdev/playbooks/master/external_vcenter_actions/external-vcenter-playbooks.pbk 
+2. Import the .pbk file into your Prism Central instance
+3. Enable all the playbooks by selecting them all and clicking Enable under the Actions menu
 
     ![](enable_playbooks.png)
 
