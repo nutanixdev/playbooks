@@ -33,7 +33,7 @@ This is a set of 8 playbooks developed in pc.2022.1 for performing actions on ex
 
 
 ### Steps to Enable
-1. Import the playbook file
+1. Download and import the playbook file (.pbk)
 2. Enable all the playbooks
 
     ![](enable_playbooks.png)
