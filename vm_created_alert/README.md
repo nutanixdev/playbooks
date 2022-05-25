@@ -21,6 +21,8 @@ This playbook sends a Slack message when a VM is created, with the user and VM d
 3. Click on the playbook name, then click **Update**
 4. Click on the Slack action, then update the Slack Token and Channel Name. Please see the [Prism Central Guide](https://portal.nutanix.com/page/documents/details?targetId=Prism-Central-Guide-Prism-vpc_2022_4:mul-playbook-actions-pc-r.html) for more details.
 
+   ![](update-playbook.png)
+
 
 ### Customization
 You can customize the playbook to suit your needs. For example, you can enable Microsoft Teams support by removing the Slack action and replacing with the Teams action. Be sure to save and enable the playbook once you are done customizing.
