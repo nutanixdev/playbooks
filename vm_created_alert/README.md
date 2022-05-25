@@ -12,7 +12,7 @@
 ### Description
 ![](slack-alert-example.png)
 
-This playbook sends a Slack message when a VM is created, with the user and VM details. It uses the Lookup VM Details, REST API, and Slack actions. It could easily be modified to support Microsoft Teams or other VM events (such as deletion) as well.
+This playbook sends a Slack message when a VM is created, with the user and VM details. It uses the Lookup VM Details, REST API, and Slack actions. It could easily be modified to support Microsoft Teams as well.
 
 
 ### Steps to Download/Enable
@@ -26,5 +26,3 @@ This playbook sends a Slack message when a VM is created, with the user and VM d
 
 ### Customization
 You can customize the playbook to suit your needs. For example, you can enable Microsoft Teams support by removing the Slack action and replacing with the Teams action. Be sure to save and enable the playbook once you are done customizing.
-
-You can also clone this playbook to create a similar action for other events, such as VM deletion.
