@@ -19,9 +19,13 @@ This playbook sends a Slack message when a VM is created, with the user and VM d
 1. Download the .pbk file by right-clicking and saving this link: https://raw.githubusercontent.com/nutanixdev/playbooks/master/vm_created_alert/vm-created-alert.pbk
 2. Import the .pbk file into your Prism Central instance. The playbook will have validation errors. This is expected as you will need to update the Slack action to use your specific Slack token and channel name. 
 3. Click on the playbook name, then click **Update**
-4. Click on the Slack action, then update the Slack Token and Channel Name. Please see the [Prism Central Guide](https://portal.nutanix.com/page/documents/details?targetId=Prism-Central-Guide-Prism-vpc_2022_4:mul-playbook-actions-pc-r.html) for more details.
+4. Click on the REST API action and update the password field with your Prism Central password. You can optionally update the username as well, as long as that user has access to this API endpoint.
 
-   ![](update-playbook.png)
+   ![](update-rest-api-action.png)
+
+5. Click on the Slack action, then update the Slack Token and Channel Name. Please see the [Prism Central Guide](https://portal.nutanix.com/page/documents/details?targetId=Prism-Central-Guide-Prism-vpc_2022_4:mul-playbook-actions-pc-r.html) for more details.
+
+   ![](update-slack-action.png)
 
 
 ### Customization
