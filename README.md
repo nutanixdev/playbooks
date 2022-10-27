@@ -4,4 +4,4 @@ For more information, please check out https://www.nutanix.dev/playbooks.
 
 ## Usage
 
-Please see [terms of use](https://www.nutanix.com/legal/terms-of-use).
+Please see [Terms of Use](https://www.nutanix.com/legal/terms-of-use).
