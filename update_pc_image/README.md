@@ -24,7 +24,11 @@ This playbook runs on a schedule to update a given image on PC. It does the foll
 1. Download the .pbk file by right-clicking and saving this link: https://raw.githubusercontent.com/nutanixdev/playbooks/master/update_pc_image/pc.2022.6.0.1_update_pc_image.pbk
 2. Import the .pbk file into your Prism Central instance by clicking on **Operations > Playbooks > Import**.
 3. Click on **Update**.
-4. Configure the REST API section - **Get Image By Name**
+4. Update the trigger to the desired time interval. You can test the playbook by selecting to run the playbook **Once**, and selecting a time in the next few minutes.
+
+    ![](update_pc_image0.png)
+
+5. Configure the REST API section - **Get Image By Name**
 	
 	We are using the v4 API to get the specific image we want to update.
 
@@ -34,17 +38,17 @@ This playbook runs on a schedule to update a given image on PC. It does the foll
 
         ![](update_pc_image1.png)
 
-5. Configure the REST API action - **Create Image from Scratch**
+6. Configure the REST API action - **Create Image from Scratch**
    * Username: Update with your PC username that has the necessary privileges
    * Password: Update with your PC password
 
         ![](update_pc_image2.png)
 
-6. *Optional:* Change the **Wait for Some Time** action to your desired time (currently set to 10 minutes).
+7. *Optional:* Change the **Wait for Some Time** action to your desired time (currently set to 10 minutes).
 
     ![](update_pc_image3.png)
 
-7. Configure the REST API action - **Get Task Info for Image Create**
+8. Configure the REST API action - **Get Task Info for Image Create**
    * Username: Update with your PC username that has the necessary privileges
    * Password: Update with your PC password
 
