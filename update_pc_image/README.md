@@ -1,11 +1,10 @@
-# Send Alert to Jira Service Desk
+# Update PC Image
 
 ### Table of Contents
-- [Send Alert to Jira Service Desk](#send-alert-to-jira-service-desk)
-    - [Table of Contents](#table-of-contents)
-    - [Export Version](#export-version)
-    - [Description](#description)
-    - [Steps to Download/Enable](#steps-to-downloadenable)
+- [Table of Contents](#table-of-contents)
+- [Export Version](#export-version)
+- [Description](#description)
+- [Steps to Download/Enable](#steps-to-downloadenable)
 
 ### Export Version
 <b>pc.2022.6.0.1</b> - This playbook can only be imported into pc.2022.6.0.1 or newer versions.
@@ -20,7 +19,6 @@ This playbook runs on a schedule to update a given image on PC. It does the foll
 * Makes an API call to recreate the image from the URL, using the generated UUID in the headers as the Ntnx-Request-Id
 * Wait 10 minutes to ensure the task was successful. (Depending on the size of your image you may want to modify this)
 * Makes an API call to delete the existing image, if the task was successful.
-
 
 ### Steps to Download/Enable
 1. Download the .pbk file by right-clicking and saving this link: https://raw.githubusercontent.com/nutanixdev/playbooks/master/update_pc_image/pc.2022.6.0.1_update_pc_image.pbk
